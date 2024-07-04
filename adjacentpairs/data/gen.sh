@@ -5,6 +5,7 @@ ulimit -s unlimited
 use_solution ModelSolution.cpp
 
 samplegroup
+limits maxn=100
 sample 1
 
 group g1 20
