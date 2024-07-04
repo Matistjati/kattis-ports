@@ -4,8 +4,12 @@ ulimit -s unlimited
 
 use_solution ModelSolution.cpp
 
+samplegroup
+sample 1
+
 group g1 20
 limits maxn=100
+include_group sample
 tc_manual ../manual/01.1.in
 tc_manual ../manual/02.1.in
 tc_manual ../manual/03.1.in
